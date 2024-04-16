@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "tasktcf",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtasktcf97dabafd",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2024-04-15T13:24:32.974Z"
+}
